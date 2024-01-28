@@ -1,0 +1,2 @@
+Aggregation of submodules is made by [ReportAggregateMojo.java](ReportAggregateMojo.java) and is the only class reworked from original repository : other files are only duplicates from [original repository](https://github.com/jacoco/jacoco/blob/master/jacoco-maven-plugin/src/org/jacoco/maven/) due to package-private methods that are required by [ReportAggregateMojo.java](ReportAggregateMojo.java).
+Philosophy is to left untouched a maximum of files since I don't master either maven-plugin mechanism, nor Jacoco aggregation one.
