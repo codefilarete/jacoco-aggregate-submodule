@@ -22,7 +22,7 @@ Replace your jacoco-maven-plugin report-aggregate execution...
 <plugin>
     <groupId>org.codefilarete</groupId>
     <artifactId>jacoco-aggregate-submodule</artifactId>
-    <version>${}</version>
+    <version>${codefilarete.jacoco.version}</version>
     <executions>
         <execution>
             <id>report-aggregate</id>
